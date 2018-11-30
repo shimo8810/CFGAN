@@ -21,7 +21,7 @@ class Generator(chainer.Chain):
 
             self.fc_out = L.Linear(n_hidden, n_in)
 
-    def make_z(self, batchsize, n_z):
+    def make_z(self, batchsize):
         return np.random.uniform(-1, 1, (batchsize, self.n_z)).astype(np.float32)
 
     def forward(self, z, c):
