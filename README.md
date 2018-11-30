@@ -1,7 +1,4 @@
 # CFGAN
-CFGANのchainer実装
+Implementation of CFGAN, by Chainer.
 
-## ToDo
-- [ ] updaterのZRの実装
-- [ ] updaterのPMの実装
-- [ ] 虚無のtrainを実装
+*It is not complete yet.
